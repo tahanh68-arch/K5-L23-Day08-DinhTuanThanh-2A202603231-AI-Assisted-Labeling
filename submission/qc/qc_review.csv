@@ -1,0 +1,10 @@
+image,object_id,error_type,reviewer,note
+img_003.jpg,11,thua,Đinh Tuấn Thành; Codex đối chiếu,Box 11 trùng xe ba bánh đã có box 10; ưu tiên ghi thừa một box thay vì đếm thêm lỗi hình học trên cùng box.
+img_003.jpg,MISSING-BICYCLE-MIN1,bo_sot,Đinh Tuấn Thành,Người kiểm báo xe đạp chưa được vẽ; ghi ít nhất 1 đối tượng; chưa có số lượng đầy đủ.
+img_006.jpg,67,sai_lop,Đinh Tuấn Thành,Người kiểm yêu cầu vùng box 67 đổi từ motorbike sang ignore_region; giữ là lỗi cần sửa; chưa đổi nhãn trong COCO.
+img_013.jpg,129,sai_vi_tri_kich_thuoc,Codex kiểm tra ảnh QC,Kiểm tra bổ sung bằng mắt: box motorbike 129 không bao hết phần bánh xe nhìn thấy phía dưới. Box 119 hiện là three_wheeler nên không ghi lỗi car cho 119.
+img_014.jpg,MISSING-MOTORBIKE-NEAR135,bo_sot,Đinh Tuấn Thành,Thiếu 1 xe máy cạnh person 135 theo người kiểm.
+img_022.jpg,MISSING-VEHICLE-BELOW266-MIN1,bo_sot,Đinh Tuấn Thành,Thiếu xe dưới person 266; ghi ít nhất 1 đối tượng; lớp và tổng số còn cần rà.
+img_033.jpg,MISSING-MOTORBIKES-MIN1,bo_sot,Đinh Tuấn Thành,Người kiểm báo nhiều xe máy cạnh nhà bị sót; dòng này chỉ ghi cận dưới 1 đối tượng cho cả nhóm; không phải số xe thực tế.
+img_033.jpg,MISSING-BICYCLE-MIN1,bo_sot,Đinh Tuấn Thành,Người kiểm báo thiếu xe đạp; ghi cận dưới 1 đối tượng; chưa đếm đầy đủ.
+img_035.jpg,,khong,Đinh Tuấn Thành,Người kiểm chưa thấy lỗi; không phải chứng nhận ảnh không có lỗi.

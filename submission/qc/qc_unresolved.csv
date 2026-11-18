@@ -1,0 +1,7 @@
+image,object_id,issue
+img_003.jpg,12,Người dùng báo box sai nhưng chưa xác định loại lỗi; chưa tính vào tổng lỗi đã phân loại.
+img_006.jpg,71,Người dùng báo box sai nhưng chưa xác định loại lỗi; chưa tính vào tổng lỗi đã phân loại.
+img_013.jpg,119,Người dùng báo car phải đổi thành three_wheeler; file hiện tại đã là three_wheeler; không ghi sai lớp khi chưa tìm đúng ID.
+img_003.jpg,,Số xe đạp bị sót chưa đếm đầy đủ.
+img_022.jpg,,Loại xe và số xe bị sót dưới person 266 chưa xác định đầy đủ.
+img_033.jpg,,Số xe máy và xe đạp bị sót chưa đếm đầy đủ.

@@ -1,1 +1,4 @@
 case_id,image,nguon,van_de,quyet_dinh,quy_tac_ghi_vao_guideline,phien_ban_guideline
+CAL-01,img_013,loi_may,YOLO26 có thể bỏ sót hoặc gán sai lớp tuk-tuk dù SAM tạo mask bám hình vật,Kiểm tra lớp độc lập với mask; tuk-tuk là three_wheeler; thêm nhãn bị sót hoặc sửa lớp sai,Áp dụng lại mục 2 v1.0; xem bảng ca khó v1.1 CAL-01; không đổi định nghĩa lớp,v1.1
+CAL-02,img_013,cau_hoi_mo,Kính chắn gió thuộc mask xe hay bị coi như khoảng hở nhìn xuyên nền,Kính chắn gió thuộc mask xe; khoảng hở không kính nhìn ra nền thì loại nếu lớn hơn khoảng 5% diện tích vật; lỗ nhỏ có thể bỏ qua,Bổ sung mục 4.2.3 và chốt câu hỏi 6.5; giữ ngưỡng lỗ nhỏ theo mục 4.2.2,v1.1
+CAL-03,img_004|img_017,loi_may,SAM có thể lấy lẫn người lái vào mask xe,Người là đối tượng riêng; loại khỏi mask xe bằng click âm; nếu chưa sạch thì chỉnh biên thủ công,Áp dụng lại mục 2 và 4.2.4 v1.0; xem bảng ca khó v1.1 CAL-03; không đổi định nghĩa đối tượng,v1.1

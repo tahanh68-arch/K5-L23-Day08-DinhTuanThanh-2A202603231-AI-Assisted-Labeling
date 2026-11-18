@@ -1,1 +1,3 @@
 step,images,minutes,note
+gold_manual,4,10,gán tay không AI — có 1 box tick can_review (ca không chắc quy tắc)
+batch_review,24,40,Vòng đầu review 24 ảnh và sửa box theo người dùng xác nhận; chưa có thời gian sửa bổ sung qua các bản review3/review44/review55
